@@ -1,10 +1,12 @@
-# AI Screen-Tracking Content Blocker
+# 🪄 Python Invisibility Cloak (Transparent Effect)
+A real-time computer vision project built using **Python**, **OpenCV**, and **MediaPipe** that creates a magical Harry Potter-style invisibility effect using background subtraction and hand tracking.
 
-An advanced Python-based computer vision pipeline that monitors your screen in real-time using `mss` and `OpenCV`, evaluates the content using a trained `MobileNetV2` model, and automatically minimizes target browser windows if prohibited content is detected.
+## 🚀 Features
+* Captures a clean background dynamically.
+* Uses MediaPipe for precise frame tracking.
+* Real-time video processing using OpenCV (`cv2`).
 
-## How to Run
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run `stcb.py` to collect your own data (save screenshots to `dataset/safe` and `dataset/prohibited`).
-4. Run the training script to generate your own `content_model.h5`.
-5. Run `run_blocker.py` to start real-time monitoring.
+## 🛠️ Requirements & Installation
+Make sure you have Python installed, then install the required libraries:
+```bash
+pip install opencv-python mediapipe numpy
